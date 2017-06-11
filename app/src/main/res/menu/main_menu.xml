@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listview.MainActivity" >
+    <item
+        android:id="@+id/newGame"
+        android:orderInCategory="100"
+        android:title="New_Game"
+        app:showAsAction="always"/>
+   <!--
+    <item
+        android:id="@+id/Custom"
+        android:title="Custom"
+        app:showAsAction="never"/>
+    */  -->
+    <item
+        android:id="@+id/three"
+        android:orderInCategory="100"
+        android:title="3 X 3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/four"
+        android:orderInCategory="100"
+        android:title="4 X 4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/five"
+        android:orderInCategory="100"
+        android:title="5 X 5"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/six"
+        android:orderInCategory="100"
+        android:title="6 X 6"
+        app:showAsAction="never"/>
+
+</menu>
